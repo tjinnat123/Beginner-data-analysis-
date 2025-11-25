@@ -12,3 +12,5 @@ print("\ntotal sales:",total sales)
 # calcukate average sales
 average_sales = data["sales"].mean()
 print("average sales:",average_sales)
+# Add Growth column (monthly sales increase) data["Growth"] = data["Sales"].diff() 
+# Difference between each month print("\nSales Data with Growth:) print (data)
